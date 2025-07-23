@@ -136,12 +136,12 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     background-color: var(--color-Gray4);
 }
 
-.partners > nav > ul{
+.partners > nav > ul, li, img{
     display: flex;
     flex-direction: row;
     gap: 50px;
     background-color: var(--color-Gray4);
-    margin-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 
