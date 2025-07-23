@@ -1,0 +1,20 @@
+*{  
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Alexandria", sans-serif;
+    list-style: none;
+}
+:root{
+    --color-Green: #9DFF3A;
+    --color-Gradient: linear-gradient(to bottom, #75A941, #3A7500);
+    --color-White: #E5E5E5;
+    --color-Gray1: #999999;
+    --color-Gray2: #4D4D4D;
+    --color-Gray3: #2E2E2E;
+    --color-Gray4: #0F0F0F;
+
+}
