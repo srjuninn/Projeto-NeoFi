@@ -1,0 +1,37 @@
+@import url(./global.css);
+/* -------- inicio do header -------- */
+header{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+header > .logo {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+header > nav > ul {
+    display: flex;
+    gap: 40px;
+    
+}
+header > nav > ul > li > a{
+    color: var(--color-Gray1);
+}
+header > nav > ul > li > a.ativo{
+    color: var(--color-White);
+    font-weight: 400;
+}
+header > .buttonsWrapper > button:nth-child(1) {
+    color: white;
+    padding: 10px 24px;
+}
+header > .buttonsWrapper > button:nth-child(2) {
+    background-color: var(--color-Green);
+    color: #000000;
+    padding: 10px 24px;
+    border-radius: 40px;
+
+}
+/* -------- fim do header -------- */
