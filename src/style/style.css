@@ -136,7 +136,7 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     background-color: var(--color-Gray4);
 }
 
-.partners > nav > ul, li, img{
+.partners > nav > ul, li > img{
     display: flex;
     flex-direction: row;
     gap: 50px;
