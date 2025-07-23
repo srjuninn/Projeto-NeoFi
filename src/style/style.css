@@ -146,3 +146,30 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
 
 
 /* ----- Fim da section Partners ----- */
+.breakdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 60px; 
+    gap: 20px;
+}
+.breakdown > button {
+    background-color: var(--color-Gray3);
+    color: var(--color-Green);
+    padding: 12px 20px;
+    border-radius: 24px;
+    background: linear-gradient(#000000, #000000) padding-box, linear-gradient(102deg, rgba(179, 179, 179, 0.6), rgba(77, 77, 77, 0.6)) border-box;
+    border: 1px solid
+    transparent;
+}
+.breakdown > h2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--color-White);
+}
+.breakdown > h3 {
+    font-size: 18px;
+    color: var(--color-Gray1);
+    width: 572px;
+}
