@@ -118,3 +118,31 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     height: 52px;
 }
 /* ----- Fim do Main ----- */
+
+/* ----- Inicio da section Partners ----- */
+.partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-Gray4);
+}
+
+.partners > h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-Gray1);
+    margin: 40px 0px 40px 0px;
+    background-color: var(--color-Gray4);
+}
+
+.partners > nav > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: var(--color-Gray4);
+    margin-bottom: 40px;
+}
+
+
+/* ----- Fim da section Partners ----- */
