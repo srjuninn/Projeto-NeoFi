@@ -173,3 +173,34 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     color: var(--color-Gray1);
     width: 572px;
 }
+.breakdown > .card {
+    display: flex;
+    gap: 20px;
+
+}
+.breakdown > .card > .cardContent  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0px 60px 0px;
+    padding: 48px 36px;
+    gap: 16px;
+    background: linear-gradient(var(--color-Gray4))padding-box, linear-gradient(116deg, var(--color-Gray2), #B3B3B3)border-box;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    /* background: linear-gradient(116deg, to bottom, var(--color-Gray2), #B3B3B3); */
+}
+.breakdown > .card > .cardContent > h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-White);
+    margin-top: 20px;
+}
+.breakdown > .card > .cardContent > p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-Gray1);
+    width: 330px;
+}
