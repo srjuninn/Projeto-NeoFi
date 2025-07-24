@@ -8,6 +8,10 @@
     font-family: "Alexandria", sans-serif;
     list-style: none;
 }
+* p, h1, h2, h3, img{
+    background-color: transparent;
+
+}
 :root{
     --color-Green: #9DFF3A;
     --color-Gradient: linear-gradient(to bottom, #75A941, #3A7500);
