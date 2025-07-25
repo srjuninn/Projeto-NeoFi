@@ -377,3 +377,37 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     width: 700px;
 }
 /* ----- Fim da section questions ----- */
+/* ----- Inicio da section workflow ----- */
+.workflow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    margin-top: 120px;
+    gap: 20px;
+}
+.workflow > button:nth-child(1) {
+    padding: 12px 20px;
+    border: 1px solid var(--color-Gray3);
+    border-radius: 24px;
+    color: var(--color-Green);
+}
+.workflow > h2 {
+    color: var(--color-White);
+    font-size: 48px;
+    font-weight: 400;
+    width: 800px;
+}
+.workflow > p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-Gray1);
+    width: 644px;
+}
+.workflow > button:nth-child(4){
+    color: #000000;
+    background-color: var(--color-Green);
+    padding: 14px 24px;
+}
+/* ----- Fim da section workflow ----- */
