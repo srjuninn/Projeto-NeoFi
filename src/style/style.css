@@ -261,3 +261,73 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     font-family: "Inter", sans-serif;
 }
 /* ----- Fim da section Levelrage ----- */
+/* ----- Inicio da section blockchain ----- */
+.blockchain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0px 60px 0px;
+}
+.blockchain > .futureBlockchain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.blockchain > .futureBlockchain > button {
+    color: var(--color-Green);
+    border: 1px solid var(--color-Gray3);
+    padding: 12px 20px;
+    border-radius: 24px;
+    font-weight: 400;
+}
+.blockchain > .futureBlockchain > h2 {
+    color: var(--color-White);
+    font-size: 48px;
+    font-weight: 400;
+}
+.blockchain > .futureBlockchain > p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-Gray1);
+    font-family: "Inter", sans-serif;
+    width: 644px;
+}
+.blockchain > .blockchainInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.blockchain > .blockchainInfo > aside > .rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 624px;
+    background: linear-gradient(var(--color-Gray4))padding-box, linear-gradient(116deg, var(--color-Gray2), #B3B3B3)border-box;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+.blockchain > .blockchainInfo > aside > .rectangle > .rectangleInformation {
+    background-color: transparent;
+}
+.rectangleInformation > h3 {
+    font-size: 20px;
+    color: var(--color-White);
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+.rectangleInformation > p {
+    font-style: 16px;
+    font-weight: 400;
+    color: var(--color-Gray1);
+    margin-top: 8px;
+}
+/* ----- Fim da section blockchain ----- */
