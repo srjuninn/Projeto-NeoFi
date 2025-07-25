@@ -331,3 +331,49 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     margin-top: 8px;
 }
 /* ----- Fim da section blockchain ----- */
+/* ----- Inicio da section questions ----- */
+.commonQuestions  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-Gray4);
+    gap: 20px;
+}
+.commonQuestions > button {
+    color: var(--color-Green);
+    font-weight: 400;
+    border: 1px solid var(--color-Gray3);
+    padding: 12px 20px;
+    border-radius: 24px;
+}
+
+.commonQuestions > h2 {
+    font-size: 48px;
+    color: var(--color-White);
+    font-weight: 400;
+    
+}
+.commonQuestions > p {
+    color: var(--color-Gray1);
+    font-size: 18px;
+    font-weight: 400;
+    width: 644px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 60px;
+}
+.questions {
+    background: linear-gradient(var(--color-Gray4))padding-box, linear-gradient(var(--color-Gray3))border-box;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+}
+.questions > h3 {
+    color: var(--color-White);
+    font-size: 16px;
+    font-weight: 400px;
+    width: 700px;
+}
+/* ----- Fim da section questions ----- */
