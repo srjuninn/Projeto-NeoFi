@@ -411,3 +411,49 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     padding: 14px 24px;
 }
 /* ----- Fim da section workflow ----- */
+/* ----- Inicio do Footer ----- */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.footerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    color: var(--color-White);
+    font-size: 22px;
+    font-weight: 500;
+}
+footer > aside {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 92px;
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 60px;
+}
+footer > aside > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+footer > aside > ul > li:nth-child(1) > a:nth-child(1) {
+    color: var(--color-White);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    width: 102px;
+}
+footer > aside > ul > li:nth-child(1) {
+    margin-bottom: 16px;
+}
+footer > aside > ul > li > a {
+    color: var(--color-Gray1);
+    font-size: 14px;
+    font-weight: 400;
+}
+/* fazer o join update */
+/* ----- Fim do Footer ----- */
