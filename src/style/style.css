@@ -11,6 +11,10 @@ header > .logo {
     align-items: center;
     gap: 11px;
 }
+header > .logo > p {
+    font-size: 22px;
+    color: var(--color-White);  
+}
 header > nav > ul {
     display: flex;
     gap: 40px;
@@ -19,7 +23,16 @@ header > nav > ul {
 header > nav > ul > li > a{
     color: var(--color-Gray1);
 }
-header > nav > ul > li > a.ativo{
+header > nav > ul > li:hover {
+    text-decoration: underline var(--color-Gray1);
+    transition: transform 0.2s ease-in-out;
+    transform: translate(3px, -2px);
+}
+header > nav > ul > li > a:hover{
+    font-weight: 500;
+    color: white;
+}
+    header > nav > ul > li > a.ativo{
     color: var(--color-White);
     font-weight: 400;
 }
@@ -452,14 +465,24 @@ footer > aside > ul > li:nth-child(1) > a:nth-child(1) {
     font-weight: 400;
     font-family: "Inter", sans-serif;
     width: 102px;
+    cursor: text;
 }
 footer > aside > ul > li:nth-child(1) {
     margin-bottom: 16px;
+}
+footer > aside > ul > li:nth-child(n+2):hover {
+    text-decoration: underline var(--color-Gray1);
+    transition: transform 0.2s ease-in-out;
+    transform: translate(3px, -2px);
 }
 footer > aside > ul > li > a {
     color: var(--color-Gray1);
     font-size: 14px;
     font-weight: 400;
+}
+footer > aside > ul > li > a:hover {
+    font-weight: 500;
+    color: var(--color-White);
 }
 /* fazer o join update */
 .joinUpdates{
