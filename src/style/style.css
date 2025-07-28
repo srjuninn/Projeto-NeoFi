@@ -370,6 +370,7 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     display: flex;
     justify-content: space-between;
     padding: 16px 20px;
+    cursor: pointer;
 }
 .questions:nth-child(9){
     margin-bottom: 60px;
@@ -388,7 +389,7 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     justify-content: center;
     align-items: center;
     background-color: #000000;
-    margin-top: 120px;
+    margin-top: 60px;
     gap: 20px;
 }
 .workflow > button:nth-child(1) {
@@ -419,8 +420,9 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
 footer{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     margin-top: 60px;
+    gap: 120px;
 }
 .footerLogo {
     display: flex;
@@ -460,4 +462,52 @@ footer > aside > ul > li > a {
     font-weight: 400;
 }
 /* fazer o join update */
+.joinUpdates{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+.joinUpdates > h3 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #D8D8D8;
+    font-weight: 400;
+    width: 198px;
+}
+.joinUpdates > p::placeholder {
+    font-size: 14px;
+    color: var(--color-Gray1);
+    border: none;
+}
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-Gray1);
+    padding-bottom: 16px;
+    width: 385px;
+}
+.input > p > input {
+    padding: 12px 0px;
+    outline: none;
+    color: var(--color-Gray1);
+    background-color: #000000;
+    width: 300px;
+}
+.input > p > input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #000000 inset !important;
+    -webkit-text-fill-color: var(--color-Gray1) !important; /* Texto branco pra manter contraste */
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-Green);
+}
 /* ----- Fim do Footer ----- */
