@@ -345,6 +345,7 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     font-weight: 400;
     border: 1px solid var(--color-Gray3);
     padding: 12px 20px;
+    margin-top: 40px;
     border-radius: 24px;
 }
 
@@ -369,6 +370,9 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     display: flex;
     justify-content: space-between;
     padding: 16px 20px;
+}
+.questions:nth-child(9){
+    margin-bottom: 60px;
 }
 .questions > h3 {
     color: var(--color-White);
