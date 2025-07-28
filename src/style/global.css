@@ -12,6 +12,9 @@
     background-color: transparent;
 
 }
+button{
+    cursor: pointer;
+}
 :root{
     --color-Green: #9DFF3A;
     --color-Gradient: linear-gradient(to bottom, #75A941, #3A7500);
