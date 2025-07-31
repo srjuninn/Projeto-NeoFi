@@ -40,12 +40,24 @@ header > .buttonsWrapper > button:nth-child(1) {
     color: white;
     padding: 10px 24px;
 }
+header > .buttonsWrapper > button:nth-child(1):hover {
+    border-top: 2px solid var(--color-Gray1);
+    transform: scale(1.1) translateY(-7px);
+    transition: transform 0.2s ease-in-out;
+    border-radius: 40px;
+}
 header > .buttonsWrapper > button:nth-child(2) {
     background-color: var(--color-Green);
     color: #000000;
     padding: 10px 24px;
     border-radius: 40px;
-
+}
+header > .buttonsWrapper > button:nth-child(2):hover {
+    background-color: #84cc3d;
+    border-top: 1px solid var(--color-Gray1);
+    transform: scale(1.1) translateY(-7px);
+    transition: transform 0.2s ease-in-out;
+    border-radius: 40px;    
 }
 /* -------- Fim do header -------- */
 /* ----- Inicio do main ----- */
@@ -75,6 +87,8 @@ main > .Finance > button{
     padding: 10px 12px;
     border-radius: 24px;
     width: 137px;
+    cursor: default;
+    pointer-events: none;
 }
 main > .Finance > button > a {
     display: flex;
@@ -82,14 +96,16 @@ main > .Finance > button > a {
     align-items: center;
     gap: 8px;
     color: var(--color-Green);
+    cursor: default;
+    pointer-events: none;
 }
 
- .decentralised {
+.decentralised {
     width: 9px;
     height: 9px;
     border-radius: 50%;
     background-color: var(--color-Green);
- }
+}
 
 main > .Finance > h1{
     font-size: 64px;
@@ -115,6 +131,13 @@ main > .Finance > .buttonStarted > button:nth-child(1) {
     font-size: 18px;
     font-weight: 400;
 }
+main > .Finance > .buttonStarted > button:nth-child(1):hover {
+    background-color: #84cc3d;
+    border-top: 1px solid var(--color-Gray1);
+    /* transform: translateY(-7px); */
+    transition: transform 0.2s ease-in-out;
+    
+}
 main > .Finance > .buttonStarted > button:nth-child(2) {
     display: flex;
     flex-direction: row;
@@ -129,6 +152,8 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     gap: 6px;
     width: 190px;
     height: 52px;
+    cursor: default;
+    pointer-events: none;
 }
 /* ----- Fim do Main ----- */
 
@@ -159,6 +184,7 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
 
 
 /* ----- Fim da section Partners ----- */
+/* ----- Inicio da section breakdown */
 .breakdown {
     display: flex;
     flex-direction: column;
@@ -176,6 +202,12 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     border: 1px solid
     transparent;
 }
+.breakdown > button:hover {
+    background: linear-gradient(#000000, #000000) padding-box, linear-gradient(102deg, rgba(179, 179, 179, 0.6), rgba(77, 77, 77, 0.6)) border-box;
+    border: 1px solid;
+    transition: scale 2s ease-in-out;
+    transform: scale(1.1) translateY(-7px);
+}
 .breakdown > h2 {
     font-size: 48px;
     font-weight: 400;
@@ -189,7 +221,6 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
 .breakdown > .card {
     display: flex;
     gap: 20px;
-
 }
 .breakdown > .card > .cardContent  {
     display: flex;
@@ -202,7 +233,6 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     background: linear-gradient(var(--color-Gray4))padding-box, linear-gradient(116deg, var(--color-Gray2), #B3B3B3)border-box;
     border: 1px solid transparent;
     border-radius: 12px;
-    /* background: linear-gradient(116deg, to bottom, var(--color-Gray2), #B3B3B3); */
 }
 .breakdown > .card > .cardContent > h3 {
     font-size: 20px;
@@ -235,6 +265,14 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     border: 1px solid var(--color-Gray3);
     border-radius: 24px;
     padding: 12px 20px;
+}
+.levelrage > button:hover {
+    background-color: #000000;
+    border: 1.5px solid var(--color-Gray1);
+    transform: scale(1.1) translateY(-7px);
+    transition: transform 0.2s ease-in-out;
+    border-radius: 40px;
+    
 }
 .levelrage > h2 {
     color: var(--color-White);
@@ -296,6 +334,12 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     padding: 12px 20px;
     border-radius: 24px;
     font-weight: 400;
+}
+.blockchain > .futureBlockchain > button:hover {
+    background: linear-gradient(#000000, #000000) padding-box, linear-gradient(102deg, rgba(179, 179, 179, 0.6), rgba(77, 77, 77, 0.6)) border-box;
+    border: 1px solid;
+    transition: scale 2s ease-in-out;
+    transform: scale(1.1) translateY(-7px);
 }
 .blockchain > .futureBlockchain > h2 {
     color: var(--color-White);
@@ -361,12 +405,17 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     margin-top: 40px;
     border-radius: 24px;
 }
+.commonQuestions > button:hover {
+    background: linear-gradient(#000000, #000000) padding-box, linear-gradient(102deg, rgba(179, 179, 179, 0.6), rgba(77, 77, 77, 0.6)) border-box;
+    border: 1px solid;
+    transition: scale 2s ease-in-out;
+    transform: scale(1.1) translateY(-7px);    
+}
 
 .commonQuestions > h2 {
     font-size: 48px;
     color: var(--color-White);
     font-weight: 400;
-    
 }
 .commonQuestions > p {
     color: var(--color-Gray1);
@@ -411,6 +460,12 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     border-radius: 24px;
     color: var(--color-Green);
 }
+.workflow > button:nth-child(1):hover {
+    background: linear-gradient(#000000, #000000) padding-box, linear-gradient(102deg, rgba(179, 179, 179, 0.6), rgba(77, 77, 77, 0.6)) border-box;
+    border: 1px solid;
+    transition: scale 2s ease-in-out;
+    transform: scale(1.1) translateY(-7px);        
+}
 .workflow > h2 {
     color: var(--color-White);
     font-size: 48px;
@@ -427,6 +482,12 @@ main > .Finance > .buttonStarted > button:nth-child(2) {
     color: #000000;
     background-color: var(--color-Green);
     padding: 14px 24px;
+}
+.workflow > button:nth-child(4):hover {
+    background-color: #84cc3d;
+    border-top: 1px solid var(--color-Gray1);
+    transform: scale(1.1) translateY(5px);
+    transition: transform 0.2s ease-in-out;
 }
 /* ----- Fim da section workflow ----- */
 /* ----- Inicio do Footer ----- */
@@ -484,7 +545,6 @@ footer > aside > ul > li > a:hover {
     font-weight: 500;
     color: var(--color-White);
 }
-/* fazer o join update */
 .joinUpdates{
     display: flex;
     flex-direction: column;
@@ -510,7 +570,7 @@ footer > aside > ul > li > a:hover {
     align-items: center;
     border-bottom: 1px solid var(--color-Gray1);
     padding-bottom: 16px;
-    width: 385px;
+    width: 345px;
 }
 .input > p > input {
     padding: 12px 0px;
@@ -532,5 +592,11 @@ footer > aside > ul > li > a:hover {
     height: 40px;
     border-radius: 50%;
     background-color: var(--color-Green);
+}
+.send:hover {
+    background-color: #84cc3d;
+    border-top: 1px solid var(--color-Gray1);
+    transform: scale(1.1) translateX(5px);
+    transition: transform 0.2s ease-in-out;
 }
 /* ----- Fim do Footer ----- */
