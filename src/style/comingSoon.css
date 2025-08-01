@@ -1,0 +1,60 @@
+@import url(global.css);
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    gap: 10px;
+}
+header > p {
+    color: white;
+    font-style: 22px;
+    font-weight: 500;
+}
+main{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    padding: 75px 0px;
+}
+main > aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+main > aside > h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: 200;
+    width: 314px;
+    text-align: center;
+}
+main > aside > button {
+    background-color: #000000;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 550;
+    border-bottom: 1px solid white;
+    border-radius: 21px;
+    padding: 10px 12px;
+}
+main > aside > button:hover {
+    background-color: #84cc3d;
+    color: black;
+    font-size: 14px;
+    font-weight: 550;
+    border-top: 3px solid var(--color-White);
+    transition: transform 0.4s ease-in-out;
+    transform: translateY(10px);
+}
+main > aside > button > img:nth-child(2) {
+    display: none;
+}
