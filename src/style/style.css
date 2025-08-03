@@ -600,3 +600,151 @@ footer > aside > ul > li > a:hover {
     transition: transform 0.2s ease-in-out;
 }
 /* ----- Fim do Footer ----- */
+/* Inicio das reposividades */
+/* Responsividade pra notebook */
+@media (max-width: 1024px){
+    main {
+        gap: 30px;
+    }
+    main > .Finance:nth-child(1)  > button{
+        margin-left: 30px;
+    }
+    main > .Finance > h1{
+        margin-left: 30px;
+        font-size: 50px;
+    }
+    main > .Finance > h2{
+        margin-left: 30px;
+    }
+    main > .Finance > .buttonStarted {
+        margin-left: 30px;   
+    }
+    main > img {
+        width: 400px;
+        height: 400px;
+    }
+    .breakdown > .card {
+        gap: 40px;
+    }
+    .breakdown > .card > .cardContent > p {
+        width: 200px;
+    }
+    .blockchain > .blockchainInfo {
+        gap: 30px;
+    }
+    .blockchain > .blockchainInfo > img {
+        width: 400px;
+        height: 400px;
+    }
+    .blockchain > .blockchainInfo > aside > .rectangle {
+        width: 450px;
+        gap: 10px;
+        padding: 20px 10px;
+    }
+    .blockchain > .blockchainInfo > aside > .rectangle > img {
+        margin-left: 15px;
+    }
+    .rectangleInformation > p {
+        width: 400px;  
+    }
+    footer {
+        gap: 60px;
+    }
+    footer > aside {
+        gap: 60px;
+    }
+    footer > aside > * {
+        margin-left: 20px;
+    }
+    .joinUpdates> * {
+        margin-right: 20px;
+    }
+    .input{
+        width: 300px;
+    }
+    .input > p > input {
+        width: 250px;
+    }
+}
+@media (max-width: 900px){
+    .breakdown > h3 {
+        margin-bottom: 60px;
+    }
+    .breakdown > .card > .cardContent {
+        margin: 0px;
+    }
+    .breakdown > .card > .cardContent:nth-child(3) {
+        margin-bottom: 60px;
+    }
+    .breakdown > .card {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .blockchain > .futureBlockchain > h2 {
+        width: 600px;
+    }
+    .blockchain > .futureBlockchain > p {
+        width: 450px;
+    }
+    .blockchain > .blockchainInfo{
+        flex-direction: column-reverse;
+    }
+    .blockchain > .blockchainInfo > aside > .rectangle {
+        width: 550px;
+    }
+    .blockchain > .blockchainInfo > aside > .rectangle > img {
+        margin-left: 0px;
+    }
+    .blockchain > .blockchainInfo > aside > .rectangle {
+        justify-content: start;
+        margin-left: 10px!important;
+    }
+    .blockchain > .blockchainInfo > aside > .rectangle > img {
+        margin-left: 10px;
+    }
+    .blockchain > .blockchainInfo > img {
+        width: 500px;
+        height: 500px;
+    }
+    .commonQuestions > h2 {
+        width: 600px;
+        text-align: center;
+    }
+    .commonQuestions > p {
+        width: 550px;
+    }
+    .workflow > h2 {
+        width: 600px;
+        text-align: center;
+    }
+    .workflow > p {
+        width: 550px;
+        text-align: center;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+    .joinUpdates {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 860px){  
+    main > img {
+        width: 300px;
+        height: 300px;
+        margin-right: 10px;
+    }
+    main > .Finance> * {
+        margin-left: 20px;
+    }
+    .partners > nav> ul{
+        justify-content: center;
+    }
+    .partners > nav > ul{
+        flex-wrap: wrap;
+    }
+}
+/* Fim das reposividades */
