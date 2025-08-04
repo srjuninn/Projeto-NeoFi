@@ -60,8 +60,30 @@ header > .buttonsWrapper > button:nth-child(2):hover {
     border-radius: 40px;    
 }
 /* ----- Inicio Menu hamburgão ----- */
+.hamburgerMenu > .hamburgerIcon{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+.hamburgerMenu > .hamburgerIcon >ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 26px;
+    height: 26px;
+    gap: 5px;
+
+}
+.hamburgerMenu > .hamburgerIcon > ul > li{
+    background-color: white;
+    width: 26px;
+    height: 26px;
+    height: 5px;
+    border-radius: 10px;
+}
 .hamburgerMenuShape {
-    display: block;
+    display: none;
     width: 268px;
     height: auto;
     background: linear-gradient(var(--color-Gray4)) padding-box, linear-gradient(-38deg, #272727, #FFFFFF) border-box;
@@ -888,10 +910,17 @@ footer > aside > ul > li > a:hover {
 }
 /* Inicio das responsividades para tablets */
 @media (max-width: 768px){
-    header > .hamburgerMnenuShape{
-        display: block;
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
-    header > .hamburgerMenu > ul {
+    .hamburgerMenu > .hamburgerIcon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hamburgerMenu > .hamburgerIcon {
         width: 200px;
     }
     header > nav {
