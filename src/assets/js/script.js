@@ -6,7 +6,7 @@ btnReturn.addEventListener("mouseover", () => {
   arrowColorWhite.style.display = "none";
   arrowColorBlack.style.display = "block";
 });
-btnReturn .addEventListener("mouseout", () => {
+btnReturn.addEventListener("mouseout", () => {
   arrowColorWhite.style.display = "block";
   arrowColorBlack.style.display = "none";
 });
