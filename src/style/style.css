@@ -59,22 +59,23 @@ header > .buttonsWrapper > button:nth-child(2):hover {
     transition: transform 0.2s ease-in-out;
     border-radius: 40px;    
 }
-/* ----- Menu hamburgão ----- */
-.hamburgerMnenuShape {
-  width: 268px;
-  height: 551px;
-  background: linear-gradient(var(--color-Gray4)) padding-box, linear-gradient(-38deg, #272727, #FFFFFF) border-box;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  position: fixed;
-  left: 0;  
-  top: 0;
+/* ----- Inicio Menu hamburgão ----- */
+.hamburgerMenuShape {
+    display: block;
+    width: 268px;
+    height: auto;
+    background: linear-gradient(var(--color-Gray4)) padding-box, linear-gradient(-38deg, #272727, #FFFFFF) border-box;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    position: fixed;
+    left: 0;  
+    top: 0;
 }
-.hamburgerMnenuShape > header {
+.hamburgerMenuShape > header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 10px 15px;
 }
 .hamburgerLogo{
     display: flex;
@@ -82,10 +83,10 @@ header > .buttonsWrapper > button:nth-child(2):hover {
     justify-content: center;
     align-items: center;
 }
-.hamburgerMnenuShape > header > .hamburgerLogo > p{
+.hamburgerMenuShape > header > .hamburgerLogo > p{
     color: var(--color-White);
 }
-.hamburgerMnenuShape > header > ul {
+.hamburgerMenuShape > header > ul {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -93,27 +94,110 @@ header > .buttonsWrapper > button:nth-child(2):hover {
   height: 26px;
 }
 
-.hamburgerMnenuShape>header>ul>li {
+.hamburgerMenuShape>header>ul>li {
   background-color: #ffffff;
   width: 26px;
   height: 5px;
   border-radius: 10px;
   list-style: none;
 }
-.hamburgerMnenuShape>header>ul>li:nth-child(1) {
+.hamburgerMenuShape>header>ul>li:nth-child(1) {
   transform: rotate(135deg);
   position: relative;
   right: -0.5px;
   top: 11px;
   }
-.hamburgerMnenuShape>header>ul>li:nth-child(2) {
+.hamburgerMenuShape>header>ul>li:nth-child(2) {
   transform: rotate(45deg);
   position: relative;
   top: -11px;
   left: 1px;
   top: 1px;
 }
-/* ----- Menu hamburgão ----- */
+.hamburgerMenuShape > nav > ul > li {
+    padding-left: 20px;
+    padding-top: 15px;
+    color: var(--color-White);
+    font-size: 22px;
+}
+.hamburgerMenuShape > nav > ul > li> a {
+    color: var(--color-White);
+    font-size: 22px;
+    padding-left: 20px;
+}
+.hamburgerMenuShape > .buttons {
+    display: flex;
+    gap: 16px;
+    padding: 56px 20px;
+}
+.hamburgerMenuShape > .buttons > button:nth-child(1) {
+    color: var(--color-White);
+    padding: 10px 24px;
+}
+.hamburgerMenuShape > .buttons > button:nth-child(2) {
+    background-color: var(--color-Green);
+    color: var(--color-Gray4);
+    padding: 10px 24px;
+    border-radius: 40px;
+}
+.socialMedia{
+    display: flex;
+    gap: 24px;
+    padding: 0 0 50px 39px;
+}
+.facebook {
+    background: linear-gradient(var(--color-Gray4)) padding-box, linear-gradient(-120deg, #FFFFFF, #000000 ) border-box;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--color-White);
+}
+.linkedin{
+    background: linear-gradient(var(--color-Gray4)) padding-box, linear-gradient(-120deg, #FFFFFF, #000000 ) border-box;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--color-White);
+}
+.instagram {
+    background: linear-gradient(var(--color-Gray4)) padding-box, linear-gradient(-120deg, #FFFFFF, #000000 ) border-box;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.deg{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: -5px;
+    left: 18px;
+}
+/* -----  Fim Menu hamburgão ----- */
 /* -------- Fim do header -------- */
 /* ----- Inicio do main ----- */
 main {
@@ -804,7 +888,7 @@ footer > aside > ul > li > a:hover {
 }
 /* Inicio das responsividades para tablets */
 @media (max-width: 768px){
-    header > .hamburgerMenu{
+    header > .hamburgerMnenuShape{
         display: block;
     }
     header > .hamburgerMenu > ul {
