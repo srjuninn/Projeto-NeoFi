@@ -59,6 +59,61 @@ header > .buttonsWrapper > button:nth-child(2):hover {
     transition: transform 0.2s ease-in-out;
     border-radius: 40px;    
 }
+/* ----- Menu hamburgão ----- */
+.hamburgerMnenuShape {
+  width: 268px;
+  height: 551px;
+  background: linear-gradient(var(--color-Gray4)) padding-box, linear-gradient(-38deg, #272727, #FFFFFF) border-box;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  position: fixed;
+  left: 0;  
+  top: 0;
+}
+.hamburgerMnenuShape > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.hamburgerLogo{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.hamburgerMnenuShape > header > .hamburgerLogo > p{
+    color: var(--color-White);
+}
+.hamburgerMnenuShape > header > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 26px;
+  height: 26px;
+}
+
+.hamburgerMnenuShape>header>ul>li {
+  background-color: #ffffff;
+  width: 26px;
+  height: 5px;
+  border-radius: 10px;
+  list-style: none;
+}
+.hamburgerMnenuShape>header>ul>li:nth-child(1) {
+  transform: rotate(135deg);
+  position: relative;
+  right: -0.5px;
+  top: 11px;
+  }
+.hamburgerMnenuShape>header>ul>li:nth-child(2) {
+  transform: rotate(45deg);
+  position: relative;
+  top: -11px;
+  left: 1px;
+  top: 1px;
+}
+/* ----- Menu hamburgão ----- */
 /* -------- Fim do header -------- */
 /* ----- Inicio do main ----- */
 main {
@@ -745,6 +800,18 @@ footer > aside > ul > li > a:hover {
     }
     .partners > nav > ul{
         flex-wrap: wrap;
+    }
+}
+/* Inicio das responsividades para tablets */
+@media (max-width: 768px){
+    header > .hamburgerMenu{
+        display: block;
+    }
+    header > .hamburgerMenu > ul {
+        width: 200px;
+    }
+    header > nav {
+        display: none;
     }
 }
 /* Fim das reposividades */
