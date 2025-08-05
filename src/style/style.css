@@ -957,6 +957,7 @@ footer > aside > ul > li > a:hover {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        scale: 0.95;
     }
     .hamburgerMenu > .hamburgerIcon{
         display: flex;
@@ -965,6 +966,11 @@ footer > aside > ul > li > a:hover {
     }
     .hamburgerMenu > .hamburgerIcon {
         width: 200px;
+    }
+    .hamburgerMenuShape{
+        position: fixed;
+        top: 0;
+        left: -300px;
     }
     header > nav {
         display: none;
@@ -1020,8 +1026,61 @@ footer > aside > ul > li > a:hover {
     .hamburgerMenu > .hamburgerIcon {
         width: 170px;
     }
+    header > .logo {
+        margin-left: 40px;
+    }
     .buttonsWrapper{
         scale: 0.82;
+    }
+    main > .Finance > h1 {
+        font-size: 40px;
+    }
+    main > .Finance > h2 {
+        font-size: 18px;
+        width: 430px;
+    }
+    .breakdown > h2 {
+        font-size: 40px;
+    }
+    .breakdown > h3 {
+        width: 430px;
+        text-align: center;
+    }
+    .levelrage > h2 {
+        font-size: 40px;
+    }
+    .levelrage > p {
+        width: 430px;
+    }
+    .levelrage > .levelrageInformation{
+        margin-left: 40px;
+    }
+    .blockchain > .futureBlockchain > h2{
+        font-size: 40px;
+    }
+    .commonQuestions > h2 {
+        width: 450px;
+        font-size: 40px;
+    }
+    .commonQuestions > p{
+        width: 450px;
+    }
+    .questions {
+        width: 450px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+/* Inicio da responsividade pra celulares grandes */
+@media (max-width: 568px){
+
+    .hamburgerMenuShape {
+    position: fixed;
+    left: -20px;
+    top: 0;
     }
 }
 }
