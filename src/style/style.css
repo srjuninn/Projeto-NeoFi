@@ -1037,6 +1037,7 @@ footer > aside > ul > li > a:hover {
         flex-wrap: wrap;
 
     }
+}
 @media (max-width: 600px){
     body > header {
         padding: 0 20px;
@@ -1098,6 +1099,7 @@ footer > aside > ul > li > a:hover {
         align-items: center;
         gap: 10px;
     }
+}
 /* Inicio da responsividade pra celulares grandes */
 @media (max-width: 568px){
     body > header {
@@ -1117,5 +1119,5 @@ footer > aside > ul > li > a:hover {
         display: none;
     }
 }
-}
+
 /* Fim das resposividades * /
