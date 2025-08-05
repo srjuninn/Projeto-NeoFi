@@ -94,6 +94,10 @@ header > .buttonsWrapper > button:nth-child(2):hover {
     left: -300px;  
     top: 0;
     transition: left 0.5s ease-in-out;
+    z-index: 99999;
+}
+.bodylockScroll{
+    overflow: hidden;
 }
 .hamburgerMenuShape > header {
     display: flex;
@@ -953,12 +957,20 @@ footer > aside > ul > li > a:hover {
 }
 /* Inicio das responsividades para tablets */
 @media (max-width: 768px){
-    header {
+    body > header {
+        width: 100vw;
+        padding: 0 20px;
+        position: fixed;
+        top: 0;
         display: flex;
         justify-content: space-around;
         align-items: center;
         scale: 0.95;
     }
+    main > .Finance {
+        margin-top: 60px;
+    }
+
     .hamburgerMenu > .hamburgerIcon{
         display: flex;
         justify-content: center;
@@ -966,6 +978,9 @@ footer > aside > ul > li > a:hover {
     }
     .hamburgerMenu > .hamburgerIcon {
         width: 200px;
+    }
+    .buttonsWrapper {
+        margin-right: 20px;
     }
     .hamburgerMenuShape{
         position: fixed;
@@ -1023,6 +1038,13 @@ footer > aside > ul > li > a:hover {
 
     }
 @media (max-width: 600px){
+    body > header {
+        padding: 0 20px;
+        position: fixed;
+        top: 0;
+        left: 0px;
+        transition: 0.3s ease;
+    }
     .hamburgerMenu > .hamburgerIcon {
         width: 170px;
     }
@@ -1031,6 +1053,8 @@ footer > aside > ul > li > a:hover {
     }
     .buttonsWrapper{
         scale: 0.82;
+        margin-left: 10px;
+        margin-right: 0px;
     }
     main > .Finance > h1 {
         font-size: 40px;
@@ -1076,12 +1100,22 @@ footer > aside > ul > li > a:hover {
     }
 /* Inicio da responsividade pra celulares grandes */
 @media (max-width: 568px){
-
+    body > header {
+        padding: 0 20px;
+        position: fixed;
+        top: 0;
+    }
     .hamburgerMenuShape {
     position: fixed;
     left: -20px;
     top: 0;
     }
+    main > .Finance {
+    margin-top: 60px;
+    }
+    .buttonsWrapper{
+        display: none;
+    }
 }
 }
-/* Fim das reposividades */
+/* Fim das resposividades * /
