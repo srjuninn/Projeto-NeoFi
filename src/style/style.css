@@ -1103,9 +1103,13 @@ footer > aside > ul > li > a:hover {
 /* Inicio da responsividade pra celulares grandes */
 @media (max-width: 568px){
     body > header {
+        width: 100%;
         padding: 0 20px;
         position: fixed;
         top: 0;
+    }
+    .buttonsWrapper {
+        display: none !important;
     }
     .hamburgerMenuShape {
     position: fixed;
@@ -1118,6 +1122,157 @@ footer > aside > ul > li > a:hover {
     .buttonsWrapper{
         display: none;
     }
+    .blockchain > .blockchainInfo > aside > .rectangle{
+        width: 450px;
+    }
 }
-
+@media (max-width: 476px){
+    .buttonsWrapper {
+        display: none;
+    }
+    main > .Finance > h1 {
+        font-size: 30px;
+        width: 350px;
+    }
+    main > .Finance > * {
+        margin: 0 !important;
+    }
+    main > .Finance > h2 {
+        width: 350px;
+    }
+    .blockchain > .blockchainInfo > aside > .rectangle{
+        width: 400px;
+    }
+    .blockchain > .futureBlockchain > h2 {
+        font-size: 30px;
+        width: 350px;    
+    }
+    .blockchain > .futureBlockchain > p {
+        font-size: 16px;
+        width: 400px;
+    }
+    .rectangleInformation > h3 {
+        font-size: 16px;
+    }
+    .rectangleInformation > p {
+    font-size: 14px;
+    width: 350px;
+    }
+    .levelrage > .levelrageInformation > .cardInformation > h3 {
+        font-size: 32px;
+    }
+    .levelrage > .levelrageInformation {
+        margin-left: 10px;
+    }
+    .questions {
+        width: 400px;
+    }
+    .commonQuestions > p{
+        width: 400px;
+    }
+    footer > aside {
+        gap: 30px;
+    }
+    footer > aside > *{
+        margin-left: 0 !important;
+    }
+    footer > aside > *:last-child {
+        margin-left: 30px !important;
+    }
+}
+@media (max-width: 400px){
+    .breakdown > h2 {
+        font-size: 30px;
+    }
+    .breakdown > h3{
+        font-size: 16px;
+        width: 350px;
+    }
+    .levelrage > h2{
+        font-size: 30px;
+        width: 350px;
+    }
+    .levelrage > p{
+        font-size: 16px;
+        width: 350px;
+    }
+    .blockchain > .blockchainInfo > aside > .rectangle{
+        width: 320px;
+    }
+    .levelrage > .levelrageInformation{
+        gap: 30px;
+    }
+    .rectangleInformation > p{
+        width: 250px;
+    }
+    .commonQuestions > h2{
+        font-size: 30px;
+        width: 350px;
+    }
+    .commonQuestions > p{
+        font-size: 16px;
+        width: 350px;
+    }
+    .questions{
+        width: 320px;
+    }
+    .questions > h3{
+        width: 300px;
+    }
+    .workflow > h2{
+        font-size: 25px;
+        width: 350px;
+    }
+    .workflow > p{
+        width: 350px;
+    }
+}
+@media (max-width: 350px){
+    main > .Finance > h1{
+        font-size: 25px;
+    }
+    main > .Finance > h2{
+        font-size: 14px;
+        width: 300px;
+    }
+    main > .Finance > .buttonStarted{
+        scale: 0.8;
+    }
+    main > img{
+        width: 300px;
+        height: 300px;
+    }
+    .blockchain > .blockchainInfo > img {
+        width: 300px;
+        height: 300px;
+    }
+    .levelrage > p{
+        width: 300px;
+    }
+    .levelrage > .levelrageInformation{
+        scale: 0.9;
+    }
+    .blockchain > .futureBlockchain > h2{
+        font-size: 25px;
+        width: 300px;
+    }
+    .blockchain > .futureBlockchain > p{
+        width: 300px;
+    }
+    .commonQuestions > p{
+        width: 300px;
+    }
+    .workflow > h2{
+        width: 300px;
+    }
+    .workflow > p{
+        width: 300px;
+    }
+    footer > aside {
+        justify-content: space-evenly;    
+    }
+    footer > aside > *:last-child{
+        margin-left: 0 !important;
+    }
+}
 /* Fim das resposividades * /
