@@ -10,21 +10,25 @@ O site simula uma landing page para uma plataforma fictícia chamada **NeoFi**, 
 
 Durante o curso, aprendemos e aplicamos os seguintes fundamentos:
 
-- **HTML5** — Estrutura semântica da página
-- **CSS3** — Estilização responsiva e moderna
-- **JavaScript (básico)** — Interatividade, manipulação do DOM e eventos
+- **HTML5** — Estrutura semântica da página  
+- **CSS3** — Estilização responsiva e moderna  
+- **JavaScript (básico)** — Interatividade, manipulação do DOM e eventos  
 
 ## 📄 Estrutura do Projeto
 
-- `index.html` — Página principal com seções como Hero, Features, Estatísticas e FAQ
-- `style.css` — Arquivo de estilos com responsividade e layout adaptado
-- `script.js` — Código JavaScript para funcionalidades como menu hamburgão e controle de exibição
+- `index.html` — Página principal com seções como Hero, Features, Estatísticas e FAQ  
+- `style.css` — Arquivo de estilos com responsividade e layout adaptado  
+- `script.js` — Código JavaScript para funcionalidades como menu hamburgão e controle de exibição  
+
+## 🚀 Hospedagem
+
+O site está hospedado na plataforma **[Vercel](https://vercel.com/)**, que oferece deploy rápido e gratuito para projetos front-end. Essa escolha permite que o projeto esteja sempre disponível online com ótima performance e integração contínua com o GitHub.
 
 ## 🎯 Funcionalidades
 
-- Menu responsivo com botão hamburgão
-- Layout adaptável para diferentes tamanhos de tela
-- Seções informativas sobre Web3, blockchain e segurança digital
+- Menu responsivo com botão hamburgão  
+- Layout adaptável para diferentes tamanhos de tela  
+- Seções informativas sobre Web3, blockchain e segurança digital  
 
 ## 📌 Observações
 
@@ -37,4 +41,5 @@ Agradeço especialmente aos professores [Matheus Alvarez](https://github.com/Mat
 ---
 
 ###### Autor: [Ryan Silva](https://github.com/srjuninn)  
-###### Repositório: [NeoFi](https://github.com/srjuninn/Projeto-NeoFi)
+###### Repositório: [NeoFi](https://github.com/srjuninn/Projeto-NeoFi)  
+###### Site: [NeoFi](https://neofiproject.vercel.app/)
