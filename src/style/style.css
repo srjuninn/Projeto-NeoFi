@@ -1103,7 +1103,7 @@ footer > aside > ul > li > a:hover {
 /* Inicio da responsividade pra celulares grandes */
 @media (max-width: 568px){
     body > header {
-        width: 100%;
+        width: 100vw;
         padding: 0 20px;
         position: fixed;
         top: 0;
